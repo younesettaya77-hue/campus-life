@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content:space-between;
+    gap: 25px;
+
+}
+
+nav a{
+ padding: 1cm;
+ text-decoration-line: none;
+
+}
+nav button{
+    background-color: rgb(49, 49, 242);
+    width: 89px;
+    height:39px;
+    color: aliceblue;
+}
+nav Menu{
+    
+}
+
