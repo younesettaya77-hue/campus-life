@@ -1,19 +1,19 @@
 
-
-
-
-
+body {
+       font-family: "Inter", sans-serif;
+       margin: 0;
+}
 .flex {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    font-weight: bold   ;
+    font-weight: bold;
 }
 
 .flex-between {
     display: flex;
     justify-content: space-between;
-    gap:   145px;
+    gap: 145px;
 }
 
 .menu-nav {
@@ -22,48 +22,154 @@
     align-items: center;
 
 }
-.fixe-logo{
+
+.fixe-logo {
     display: flex;
     align-items: center;
-
-
 }
-.button-fexed{
-    background-color: blue;
+.button-fexed {
+    background-color:#0549f5;
     color: aliceblue;
-    display: flex;  
+    display: flex;
+    padding-right: 4px ;
+    padding-left: 4px ;
     font-weight: bold;
     align-items: center;
-    padding: 25px;
-    border-radius: 16px;
-    height:1px;
+    border-radius: 13px;
     letter-spacing: 2px;
-    
+    /* margin: 12px 2px; */
+   
+
 }
-.fexed-section-img{
+.fexed-section-img {
     background-color: #08111D;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 12px;
-   
-    
-    
 }
-.titre{
+.titre {
     display: flex;
 }
-.title-hero{
-    color:#FFFFFF;
-    font-size: 80px;
-
+.title-hero {
+    
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: -12px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.hero-life {
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif    ;
+    font-weight: bold;
+}
+.title-hero h4{
+    margin-top:-70px;
+    margin-bottom: 0px;  
+}
+#hero-green{
+    color: #c1fd1a;
+    
     
 }
-.bg-green{
+.bg-green {
     border-radius: 12px;
 }
-.hero-section_img{
-   background-image: url(assets/images/photo.jpg);
-   background-size: cover;
-   height: 80vh;
-   border-radius: 12px;
+#hero-para{
+    font-size: 15px;
+}
+#hero-btn1{
+    background-color: #034BFF;
+    border: #034BFF;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 19px;
+}
+#hero-btn2{
+    background-color: #050506;
+    border: 2px solid #e9ecf5;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 19px;
+}
+.hero-section_img {
+    background-image: url(assets/images/photo.jpg);
+    background-size: cover;
+    height: 80vh;
+    border-radius: 12px;
+}
+.header-nav{
+    
+    height: 70px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.cercle{
+    color: #050506;
+    width: 28px;
+    right: 28px;
+    border-radius:  50%;
+    text-align: center; 
+  
+}
+.col1{
+        background-color: #B8C9CF;
+}
+.col2{
+        background-color: #D7C3B6;
+
+}
+.asym{
+    display: flex;
+    font-size: 50%;
+    justify-content: center;
+    text-align: center;
+}
+.separer{
+    display: flex;    
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-top: 12px;
+
+
+}
+.centre{
+    display: flex;
+   
+}
+.stax{
+    
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.statistique{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 19px;
+
+}
+#nbr{
+    font-size: 25px;
+    font-weight: bold;
+}
+.separer{
+    display: grid;
+    gap: 12px;
+
+}
+.econ{
+    font-size: 35px;
+    color: #0549f5;
+    font-weight:bold;
 }
